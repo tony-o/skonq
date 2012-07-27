@@ -4,15 +4,15 @@ Using SKONQ
 -----------
 
 From your project directory:
-   $ npm install skonq
+    $ npm install skonq
 
 Within your application:
-   var nq = require("skonq");
-   
-   var somefunction = function(){ 
-      /* do some stuff here */
-      nq.next();
-   };
+    var nq = require("skonq");
+    
+    var somefunction = function(){ 
+        /* do some stuff here */
+        nq.next();
+    };
    
    nq.nq(somefunction, somefunctionsargs);
 
