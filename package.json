@@ -1,0 +1,1 @@
+{"name":"tonyo <jcrew>","version":"v0.1.0","description":"A super lightweight eN-Queuing library to help make things run in order.  This is very lightweight, it's meant only to make queuing callbacks easier - if you need the flexibility of ASYNC or STEP then use those.","keywords":["queue","enqueue","nq","order","callback"]}
