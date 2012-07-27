@@ -4,17 +4,21 @@ Using SKONQ
 -----------
 
 From your project directory:
+```bash
     $ npm install skonq
+```
 
 Within your application:
+```javascript
     var nq = require("skonq");
     
     var somefunction = function(){ 
         /* do some stuff here */
         nq.next();
     };
-   
-   nq.nq(somefunction, somefunctionsargs);
+    
+    nq.nq(somefunction, somefunctionsargs);
+```
 
 Is this All?
 ------------
